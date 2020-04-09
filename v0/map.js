@@ -129,7 +129,7 @@ $(function() {
     L.tileLayer("/tiles/{z}/{x}/{y}.jpg", {
         attribution:
             'Original project by <a href="https://github.com/blinry/">blinry<a> (<a href="https://github.com/blinry/map.recurse.com">source</a>) | <a href="#">Source</a>',
-        noWrap: false,
+        noWrap: true,
         detectRetina: true,
     }).addTo(map)
 
